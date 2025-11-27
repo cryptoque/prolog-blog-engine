@@ -16,7 +16,7 @@ list_blogs(_Request) :-
     reply_html_page(
         title('BlauAnarchy\'s Blogs'),
         [
-            h1('BlauAnarchy\'s Blogs'),
+            h1('BlauaAnarchy\'s Blogs'),
             table(
                 [
                     \header|
@@ -51,20 +51,48 @@ list_blog(Request) :-
     reply_html_page(
         title('Title: ~w'-[Blog]),
         [ 
-          %html(HtmlParagraphs)
           div([], HtmlParagraphs)
         ]
     ).
 
 render_paragraphs([], []).
-render_paragraphs([Line | Rest], [HTML | Out]) :-
+render_paragraphs([Line|Rest], [HTML|Out]) :-
     (
         re_matchsub("^# +(.*)", Line, D, []) -> HTML = h2(D.get(1));
         re_matchsub("^## +(.*)", Line, D, []) -> HTML = h3(D.get(1));
         re_matchsub("^### +(.*)", Line, D, []) -> HTML = h4(D.get(1));
-        HTML = p(Line)
+        re_matchsub("^> +(.*)", Line, D, []) -> HTML = blockquote(p(D.get(1)));
+        inline(Line, Parts),
+        HTML = p(Parts)
+
     ),
     render_paragraphs(Rest, Out).
+
+    inline(Line, Parts) :-
+    (   re_matchsub("^(.*?)\\[(.*?)\\]\\((.*?)\\)(.*)$", Line, D, []) ->
+        B = D.get(1),
+        T = D.get(2),
+        U = D.get(3),
+        A = D.get(4),
+        inline(B, PBefore),
+        inline(A, PAfter),
+        append(PBefore, [a([href(U)], T)|PAfter], Parts)
+    ;   re_matchsub("^(.*?)\\*\\*(.*?)\\*\\*(.*)$", Line, D, []) ->
+        B = D.get(1),
+        M = D.get(2),
+        A = D.get(3),
+        inline(B, PBefore),
+        inline(A, PAfter),
+        append(PBefore, [b(M)|PAfter], Parts)
+    ;   re_matchsub("^(.*?)_(.*?)_(.*)$", Line, D, []) ->
+        B = D.get(1),
+        M = D.get(2),
+        A = D.get(3),
+        inline(B, PBefore),
+        inline(A, PAfter),
+        append(PBefore, [i(M)|PAfter], Parts)
+    ;   Parts = [Line]
+    ).
 
 get_blog_file_path(Blog, Path) :-
     string_lower(Blog, Path0),

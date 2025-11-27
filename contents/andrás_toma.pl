@@ -1,7 +1,7 @@
 content("# Toma András: The Man Who Tragically Outlived Meaning
 ## The Mind That Refused to Collapse
 
-I saw a video about András Toma, and then read his Wikipedia page. I literally can’t stop sobbing. There’s so much to unpack.
+I saw a video about András Toma, and then read [his Wikipedia page](https://en.wikipedia.org/wiki/Andr%C3%A1s_Toma). I literally can’t stop sobbing. There’s so much to unpack.
 
 ### How did he survive?
 

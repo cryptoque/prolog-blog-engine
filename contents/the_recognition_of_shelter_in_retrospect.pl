@@ -5,13 +5,13 @@ There is a strange kind of realization that doesn’t come from searching, but f
 
 You spend years following your own instincts, toward songs, films, voices, tones. You never thought they were connected. Why would they be? Until one day, you notice:
 
-> Everything that stayed with me… came from the same place.
+> “Everything that stayed with me… came from the same place.”
 
-For me, that place was PolyGram.
+For me, that place was [PolyGram](https://en.wikipedia.org/wiki/PolyGram).
 
 This isn’t about loving a brand, or indulging in nostalgia.
 
-It’s about standing at the far edge of my own emotional landscape and realizing that the voices that had shaped and continued to mold me, things like Angus Tung’s philosophical warmth, Steve Chow’s gentle restraint, Sviatoslav Richter’s sovereign sadness, even A Home of Our Own’s quiet dignity - they all passed, unknowingly, through the same gate.
+It’s about standing at the far edge of my own emotional landscape and realizing that the voices that had shaped and continued to mold me, things like [Angus Tung](https://www.youtube.com/watch?v=NMkR9bt8unk)’s philosophical warmth, [Steve Chow](https://www.youtube.com/watch?v=ywIHvCfrZRA)’s gentle restraint, [Sviatoslav Richter](https://en.wikipedia.org/wiki/Sviatoslav_Richter)’s sovereign sadness, even [A Home of Our Own](https://en.wikipedia.org/wiki/A_Home_of_Our_Own)’s quiet dignity - they all passed, unknowingly, through the same gate.
 
 They weren’t curated for me. PolyGram never knew I existed.
 
@@ -35,11 +35,11 @@ It’s what Viktor Frankl meant when he wrote: “What is to give light must end
 
 Even as a large, capitalist entity like PolyGram, somewhere, quietly, there were people like that, who thought:
 
-> I can’t kill this. I don’t know who it’s for, but I know it’s true.
+> “I can’t kill this. I don’t know who it’s for, but I know it’s true.”
 
 And they didn’t. Which is why, years later, people like me who found it, felt:
 
-> Everything I love, found a home here.
+> “Everything I love, found a home here.”
 
 That’s why PolyGram felt different. It wasn’t a corporate masterstroke. It was the accidental alignment of these individuals’ quiet acts of refusal, forming brief pockets of resistance where real things survived.
 
@@ -57,7 +57,7 @@ Even in pop and film, they picked people and projects that didn’t test well, d
 
 Their foundations were engineers, archivists, cultural caretakers. They were able to say:
 
-> Let’s record this, because it matters. Even if it sells slowly.
+> “Let’s record this, because it matters. Even if it sells slowly.”
 
 You can feel that in every artist of theirs you love.
 

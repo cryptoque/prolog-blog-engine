@@ -1,13 +1,14 @@
 content("# Rare Kind of Listening Freedom
 ## When memories and feelings outrank status and genre
 
-Michael Learns to Rock (MLTR), the band from Denmark is having its first concerts in the US, three decades after their very first album was produced in 1989.
+[Michael Learns to Rock](https://en.wikipedia.org/wiki/Michael_Learns_to_Rock) (MLTR), the band from Denmark is having its first concerts in the US, three decades after their very first album was produced in 1989.
 
 When I was a kid in China, I had this condensed CD, with hundreds of songs crammed together, sorted alphabetically. No cover art, no text descriptions, no “cool” or “uncool” labels. Just a sea of titles.
 
 That’s how I met both Michael Jackson and Michael Learns to Rock, who were alphabetical neighbors.
 
-“Heal the World”, “You Took My Heart Away”...
+[“Heal the World”](https://www.youtube.com/watch?v=BWf-eARnf6U)
+[“You Took My Heart Away”](https://www.youtube.com/watch?v=3_AEvjkKNrg)
 
 I didn’t know one was the King of Pop, and the other was the soft-rock darling of South and East Asia. I didn’t know the West called one “legendary” and the other “cheesy”… They just both reached me.
 
