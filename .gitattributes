@@ -1,0 +1,2 @@
+# Clarifying for the algorithm: this is logic programming, not scripting.
+*.pl linguist-language=Prolog
