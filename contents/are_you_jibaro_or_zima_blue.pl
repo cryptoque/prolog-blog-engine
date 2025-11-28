@@ -1,6 +1,10 @@
 content("# Are You Jibaro, or Zima Blue?
 ## True freedom is not just resistance to manipulation, but the ability to build a different relationship to the world.
 
+---
+
+![Jibaro or Zima](/images/jibaro_zima.png)
+
 ### Some people mistake silence for freedom
 
 They think that if they can’t be touched by the song, the lies, the manipulations, the currents that sweep others away, they are already free.
@@ -25,6 +29,6 @@ But we are not meant to be drifting. The purpose of realizing the difference is 
 
 Because the world is full of songs that demand our attention, and silences that tempt us into greed. To resist the song is rare. To build a new relationship after the song is gone - **that is freedom**.
 
-The choice is before us every day. It’s not a cycle, but a decision:
+The choice is before us every day:
 
 Are you Jibaro, or Zima Blue?").

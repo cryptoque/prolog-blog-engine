@@ -1,6 +1,10 @@
 content("# The Recognition of Shelter in Retrospect
 ## When everything that matters seems to have passed, unknowingly, through the same gate
 
+---
+
+![The Recognition of Shelter in Retrospect](/images/polygram.png)
+
 There is a strange kind of realization that doesn’t come from searching, but from tracing backwards.
 
 You spend years following your own instincts, toward songs, films, voices, tones. You never thought they were connected. Why would they be? Until one day, you notice:
@@ -73,7 +77,7 @@ I think about that a lot as I write this. I know this piece isn’t optimized. I
 
 I’m writing for resonant souls who are too serious for commercial cynicism but too moving to be obscure. Someone, somewhere, someday who will care. Someone sitting alone at night, tracing back through their favorite voices, trying to find coherence in a fragmented world.
 
-If you’re reading this and it lands, know this: The world once made room for what you value most. And maybe, in small ways, it still can.
+If you’re reading this and it lands, know this: **The world once made room for what you value most. And maybe, in small ways, it still can**.
 
 ### For the Curious
 
