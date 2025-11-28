@@ -22,12 +22,17 @@ To add a new blog entry, simply write it in markdown and add it as prolog file t
 
 Check the site live: https://blauanarchy.org
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d0e483cd-b9d0-4e05-89c2-9035f9b3aaf7" width="400" style="display:inline-block;margin-right:10px;" />
-  <img src="https://github.com/user-attachments/assets/928f50dd-9a44-42c8-ae5e-a5ec24566df5" width="400" style="display:inline-block;" />
-  <img src="https://github.com/user-attachments/assets/7e3aa66e-085d-450d-ac43-2d5ec6555791" width="400" style="display:inline-block;"/>
-  <img src="https://github.com/user-attachments/assets/ae0b4403-48ef-484e-8913-46063717c10a" width="400" style="display:inline-block;" />
-</div>
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/d0e483cd-b9d0-4e05-89c2-9035f9b3aaf7" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/928f50dd-9a44-42c8-ae5e-a5ec24566df5" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7e3aa66e-085d-450d-ac43-2d5ec6555791" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/ae0b4403-48ef-484e-8913-46063717c10a" width="400"></td>
+  </tr>
+</table>
+
 
 
 
