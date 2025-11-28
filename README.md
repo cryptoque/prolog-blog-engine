@@ -1,4 +1,4 @@
-# Plog — A Prolog Blog Engine
+# Plog - A Prolog Blog Engine
 
 <div align="left">
 
@@ -74,14 +74,6 @@ That's it!
 
 The project intentionally avoids complexity. No abstractions unless justified. 
 Everything is visible and understandable at a glance.
-
-If you enjoy:
-- reading compact, understandable codebases
-- learning by observing a working end-to-end example
-- building unusual things in unusual languages
-- seeing logic programming do practical work
-
-then you might find this fun to explore.
 
 ### Future Works
 
