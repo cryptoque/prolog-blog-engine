@@ -46,8 +46,6 @@ Check the site live: https://blauanarchy.org
 
 - Prolog markdown parser supports: All headings, paragraphs, links, `code block`, **bold**, _italic_, blockquote, images, horizontal rule. 
 
-- Automatic HTML generation.
-
 ### Getting Started
 Run the server
 ```bash
