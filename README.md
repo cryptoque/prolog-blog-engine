@@ -1,45 +1,40 @@
 # Plog — A Prolog Blog Engine
-## Dynamic Markdown -> HTML server in pure Prolog.
+
+What does a blog engine look like if you write it in logic?
+
+### Dynamic Markdown -> HTML server in pure Prolog.
 
 Yes, you can write a web server with Prolog. 
 
-Plog is a small, self-contained experiment: a blog engine written in pure Prolog that dynamically reads Markdown files, parses them at request time, and serves clean HTML using a minimal prolog HTTP server.
+Plog is a self-contained experiment: a blog engine written in pure Prolog that dynamically reads Markdown files, parses them at request time, and serves clean HTML using a minimal prolog HTTP server.
 
-No frameworks. No dependencies. No JavaScript. Just Prolog, a few predicates, and a folder of .md files.
+No frameworks. No dependencies. No JavaScript. Just Prolog, and a folder of markdown files. 
+
+To add a new blog entry, simply write it in markdown and add it as prolog file to the content folder. The prolog engine will dynamically parse the markdown into html recursively for display.
+
+Check the site live: https://blauanarchy.org
 
 ### Features
 
-- Dynamic: reads and parses Markdown on every request
+- Dynamically reads and parses Markdown on every request.
 
-- Pure Prolog: no external libraries (except the standard HTTP package)
+- Pure Prolog: no external libraries or framework (except the standard HTTP package).
 
-- Simple HTTP server: ~70 lines of logic for routing + rendering
+- Prolog HTTP server: routing + rendering.
 
-- Markdown support: headings, paragraphs, and links
+- Prolog markdown parser supports: All headings, paragraphs, links, `code block`, **bold**, _italic_, blockquote, images, horizontal rule. 
 
-- Automatic HTML generation
-
-Good as a learning resource for Prolog + web development
-
-### Why Prolog?
-
-Prolog is rarely used for web servers, which makes it perfect for small, self-contained explorations like this.
-
-What surprised me while building it is how naturally Prolog handles structural parsing, declarative transformations, and expressing a page as logic. It uses clean pattern-matching instead of string juggling.
-
-Plog is “What does a blog engine look like if you write it in logic?”
+- Automatic HTML generation.
 
 ### Getting Started
 Run the server
 ```bash
-swipl -s main.pl -g server(5001)
+swipl -s main.pl -g server(YOUR_PORT)
 ```
 Then open:
-`http://localhost:5001`, which contains links to each blog's page.
+`http://localhost:YOUR_PORT`, which contains the index page for the blogs and links to each individual blog page.
 
-Add your own posts
-Place Markdown files into:
-`contents/`, wrap them like this:
+Add your own posts: wrap your own markdown file like this:
 ```prolog
 content("your content in markdown").
 ```
@@ -49,28 +44,14 @@ Each file can use:
 ## Subheading
 ### Sub-subheading
 plain paragraphs
+bold
+italic
+links
+images
+horizontal rule
+code block
 ```
 That's it!
-
-### Example Markdown
-```
-# Hello World
-## This is my first post in Prolog
-### history of prolog
-...
-### the power of prolog
-...
-```
-Becomes:
-
-```
-<h2>Hello World</h2>
-<h3>This is my first post in Prolog.<h3>
-<h4>history of prolog<h3>
-<p>...</p>
-<p>the power of prolog</p>
-<p>...</p>
-```
 
 ### Code Philosophy
 
@@ -93,4 +74,3 @@ then you might find this fun to explore.
 
 ⭐ If you find it interesting
 If this little exploration inspires you, feel free to ⭐ the repo.
-It helps others discover it, and I may continue extending it if people enjoy reading it.
