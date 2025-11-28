@@ -14,11 +14,11 @@ What does a blog engine look like if you write it in logic?
 
 Yes, you can write a web server with Prolog. 
 
-Plog is a self-contained experiment: a blog engine written in pure Prolog that dynamically reads Markdown files, parses them at request time, and serves clean HTML using a minimal prolog HTTP server.
+Plog is a blog engine written in pure Prolog that dynamically reads Markdown files, parses them at request time, and serves clean HTML using a minimal prolog HTTP server.
 
-No frameworks. No dependencies. No JavaScript. Just Prolog, and a folder of markdown files. 
+No frameworks. No dependencies. No JavaScript. Just Prolog. 
 
-To add a new blog entry, simply write it in markdown and add it as prolog file to the content folder. The prolog engine will dynamically parse the markdown into html recursively for display.
+To add a new blog entry, simply write it in markdown and add it as prolog file to the contents folder. The prolog engine will dynamically parse the markdown into html recursively for display.
 
 Check the site live: https://blauanarchy.org
 
@@ -32,9 +32,6 @@ Check the site live: https://blauanarchy.org
     <td><img src="https://github.com/user-attachments/assets/ae0b4403-48ef-484e-8913-46063717c10a" width="400"></td>
   </tr>
 </table>
-
-
-
 
 ### Features
 
@@ -75,14 +72,14 @@ That's it!
 
 ### Code Philosophy
 
-The project intentionally avoids complexity. No abstractions unless justified. 
+This project intentionally avoids complexity. No abstractions unless justified. 
 Everything is visible and understandable at a glance.
 
 ### Future Works
 
 - Static site generation (export/0)
 - Support more Markdown features
-- tagging + RSS
+- RSS
 
 ⭐ If you find it interesting
 If this little exploration inspires you, feel free to ⭐ the repo.
