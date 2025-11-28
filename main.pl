@@ -60,7 +60,7 @@ list_blogs(_Request) :-
                 h1('BlauAnarchy\'s Blogs'),
                 div([id(meta)], [
                     span('This page was assembled dynamically by a SWI-Prolog server using the http/html_write library.
-                    The system reads Markdown files from the contents/ directory, converts them into structured HTML through a Makrdown parser written from scratch, and generates the layout at runtime without templates or external frameworks. '),
+                    The system reads Markdown files from the contents/ directory, converts them into structured HTML through a Markdown parser written from scratch, and generates the layout at runtime without templates or external frameworks. '),
                     a([href('https://github.com/cryptoque/prolog-blog-engine'), target('_blank')], '\nCheck out the source on GitHub')
                 ]),
 
