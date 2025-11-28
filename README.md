@@ -81,5 +81,4 @@ Everything is visible and understandable at a glance.
 - Support more Markdown features
 - RSS
 
-⭐ If you find it interesting
-If this little exploration inspires you, feel free to ⭐ the repo.
+If you find it interesting, feel free to ⭐ the repo.
