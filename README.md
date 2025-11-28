@@ -1,5 +1,13 @@
 # Plog — A Prolog Blog Engine
 
+<div align="left">
+
+[![Prolog](https://img.shields.io/badge/SWI--Prolog-9.x-6B2FBF?logo=prolog&logoColor=white)](https://www.swi-prolog.org/)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/cryptoque/socratic_mirror/pulls)
+
+</div>
+
 What does a blog engine look like if you write it in logic?
 
 ### Dynamic Markdown -> HTML server in pure Prolog.
