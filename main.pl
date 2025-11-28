@@ -6,7 +6,6 @@
 :- use_module(library(pcre)).
 :- use_module(library(http/http_path)).
 :- use_module(library(http/http_files)).
-:- use_module(library(filesex)).
 :- use_module(style).
 
 :- http_handler(root(.), list_blogs, []).
