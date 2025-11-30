@@ -1,3 +1,7 @@
+% Copyright © 2025 Zhongying Qiao
+% Licensed under the Apache License 2.0.
+% See the LICENSE file or http://www.apache.org/licenses/LICENSE-2.0.
+
 content("# The Recognition of Shelter in Retrospect
 ## When everything that matters seems to have passed, unknowingly, through the same gate
 

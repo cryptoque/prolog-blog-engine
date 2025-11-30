@@ -1,3 +1,7 @@
+% Copyright © 2025 Zhongying Qiao
+% Licensed under the Apache License 2.0.
+% See the LICENSE file or http://www.apache.org/licenses/LICENSE-2.0.
+
 content("# Are You Jibaro, or Zima Blue?
 ## True freedom is not just resistance to manipulation, but the ability to build a different relationship to the world.
 
